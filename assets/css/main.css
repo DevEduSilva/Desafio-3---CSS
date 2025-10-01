@@ -1,0 +1,30 @@
+.recommended {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.recommended img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.detailRecommended {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detailRecommended h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.detailInformationLess {
+  font-size: 0.9rem;
+  color: #555;
+}

@@ -38,9 +38,19 @@ aside {
   cursor: pointer;
 }
 
+aside .bi {
+  font-size: 1.5rem;
+}
+
+/* ------------- MAIN (HÁ UM CSS DEDICADO SOMENTE A ELE) ------------- */
 main {
   grid-area: main;
+  padding: 20px;
+}
+
+#recommendedDescription {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
 }
